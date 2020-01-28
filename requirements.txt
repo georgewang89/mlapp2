@@ -1,3 +1,7 @@
+torch==1.4.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torchvision==0.5.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+
 altair==4.0.1
 appnope==0.1.0
 astor==0.8.1
@@ -101,6 +105,3 @@ webencodings==0.5.1
 Werkzeug==0.16.1
 widgetsnbextension==3.5.1
 zipp==2.1.0
-
-torch==1.4.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-torchvision=0.5.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
