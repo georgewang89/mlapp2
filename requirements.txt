@@ -1,5 +1,5 @@
-torch==1.4.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-torchvision==0.5.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+-f https://download.pytorch.org/whl/cpu/torch_stable.html torch==1.4.0
+-f https://download.pytorch.org/whl/cpu/torch_stable.html torchvision==0.5.0
 
 
 altair==4.0.1
