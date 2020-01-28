@@ -6,8 +6,6 @@ from fastai.vision import *
 import boto3
 import botocore
 
-fastai.torch_core.defaults.device = 'cpu'
-
 from flask import Flask,jsonify,request
 app = Flask(__name__)
 
