@@ -1,5 +1,4 @@
 from fastai.vision import *
-defaults.device = torch.device('cpu')
 
 # allows access to aws s3 in order to retrive the file
 
@@ -11,6 +10,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['POST','GET'])
 def index():
+    defaults.device = torch.device('cpu')
     if(request.method == 'POST'):
         data = request.get_json()
         filename = data["filename"]
