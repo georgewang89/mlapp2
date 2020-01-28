@@ -3,6 +3,7 @@ botocore==1.14.9
 streamlit==0.53.0
 requests==2.22.0
 flask==1.1.1
+univorn
 
 -f https://download.pytorch.org/whl/cpu/torch_stable.html torch
 -f https://download.pytorch.org/whl/cpu/torch_stable.html torchvision

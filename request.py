@@ -46,7 +46,7 @@ def upload_s3(bucket_name, folder, filename):
 if st.button("classify"):
     url = upload_s3(BUCKET_NAME, FOLDER, FILENAME)
     post_data = {"filename": FILENAME, "bucket": BUCKET_NAME}
-    response = requests.post("{}/".format("http://0.0.0.0:5000"), json =post_data)
+    response = requests.post("{}/".format('http://0.0.0.0:5100'), json =post_data)
     response_loaded = json.loads(response.content)
     response_df = json_normalize(response_loaded)
     st.markdown("Your image contains a **"+response_df.iloc[0,0]+'**')
