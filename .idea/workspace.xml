@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7e2e337-524c-4c15-8f78-2e013eed3dd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,22 +109,22 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="445" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182018229" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1580182262600">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1580182318023">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182262600" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1580182262599">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182318023" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1580182318022">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182262599" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1580182262599">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182318022" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1580182318021">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182262599" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1580182262600">
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182318021" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1580182318022">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182262600" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580182318022" />
     <state width="1419" height="253" key="GridCell.Tab.1.bottom" timestamp="1580182141891">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -145,16 +145,5 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580176420227" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/predict.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

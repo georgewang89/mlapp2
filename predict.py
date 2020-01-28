@@ -18,8 +18,10 @@ def index():
         bucket_name = data["bucket"]
         # Create an S3 client
         s3 = boto3.resource('s3')
+        print('received api request')
         try:
             s3.Bucket(bucket_name).download_file(filename, './images/download.jpg')
+            print('downloaded image')
         except botocore.exceptions.ClientError as e:
             if e.response['Error']['Code'] == "404":
                 print("The object does not exist.")
@@ -31,6 +33,7 @@ def index():
         classifier = load_learner('')
         pred_class = classifier.predict(img)[0]
         string = pred_class.__str__()
+        print('returning classification')
         return jsonify({"class":string})
     else:
         return  jsonify({"about":"Hello World"})
