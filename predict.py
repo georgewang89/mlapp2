@@ -16,7 +16,6 @@ def index():
         data = request.get_json()
         filename = data["filename"]
         bucket_name = data["bucket"]
-        print(hello')
         # Create an S3 client
         s3 = boto3.resource('s3')
         try:
