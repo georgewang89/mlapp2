@@ -1,9 +1,12 @@
+import fastai
 from fastai.vision import *
 
 # allows access to aws s3 in order to retrive the file
 
 import boto3
 import botocore
+
+fastai.torch_core.defaults.device = 'cpu'
 
 from flask import Flask,jsonify,request
 app = Flask(__name__)
