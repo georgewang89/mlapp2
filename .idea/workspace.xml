@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c7e2e337-524c-4c15-8f78-2e013eed3dd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/download.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/upload.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/upload.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580175942571">
+    <state x="445" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580177327981">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="445" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580175942571" />
+    <state x="445" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797/-229.-1057.1920.1057@0.23.1440.797" timestamp="1580177327981" />
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580176420227">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
