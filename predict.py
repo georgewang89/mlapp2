@@ -1,4 +1,5 @@
 from fastai.vision import *
+defaults.device = torch.device('cpu')
 
 # allows access to aws s3 in order to retrive the file
 
@@ -26,7 +27,6 @@ def index():
 
         img = open_image('./images/download.jpg')
 
-        defaults.device = torch.device('cpu')
         classifier = load_learner('')
         pred_class = classifier.predict(img)[0]
         string = pred_class.__str__()
