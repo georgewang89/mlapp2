@@ -11,5 +11,5 @@ gunicorn
 fastai==1.0.60
 
 pandas==0.25.3
-numpy==1.18.1
+numpy==1.22.0
 Pillow==7.0.0
