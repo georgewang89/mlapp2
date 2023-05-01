@@ -2,7 +2,7 @@ boto3==1.11.9
 botocore==1.14.9
 streamlit==0.53.0
 requests==2.22.0
-flask==1.1.1
+flask==2.3.2
 gunicorn
 
 -f https://download.pytorch.org/whl/cpu/torch_stable.html torch
